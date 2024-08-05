@@ -1,0 +1,7 @@
+ul {
+  text-align: left;
+  columns: 2;
+  font-size: 1.25rem;
+  margin: 2rem 3rem;
+  gap: 3rem;
+}
