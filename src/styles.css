@@ -93,14 +93,14 @@ li::marker {
   color: #4e567e;
 }
 
-a {
+/* a {
   color: black;
   text-decoration: none;
 }
 
 a:hover {
   color: #4e567e;
-}
+} */
 
 .container {
   display: grid;

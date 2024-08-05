@@ -2,15 +2,15 @@ import React from "react";
 import About from "./Components/About/About";
 import Footer from "./Components/Footer/Footer";
 import Header from "./Components/Header/Header";
-import Home from "./Components/Home";
+import Home from "./Components/Home/Home";
 import Portfolio from "./Components/Portfolio";
 
 import "./styles.css";
-import { useGSAP } from "@gsap/react";
-import gsap from "gsap";
+// import { useGSAP } from "@gsap/react";
+// import gsap from "gsap";
 
 const siteProps = {
-  name: "Alexandrie Grenier",
+  name: "Vishakha Kayal",
   title: "Web Designer & Content Creator",
   email: "alex@example.com",
   gitHub: "microsoft",
@@ -25,9 +25,9 @@ const primaryColor = "#4E567E";
 const secondaryColor = "#D2F1E4";
 
 const App = () => {
-  useGSAP(()=>{
-    gsap
-  })
+  // useGSAP(()=>{
+  //   gsap
+  // })
   return (
     <div id="main">
       <Header />
